@@ -10,7 +10,7 @@ var firebaseConfig = {
     appId: "appId",
     measurementId: "measurementId"
 };
-// Initialize Firebase
+
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 
 const db = firebaseApp.firestore();
